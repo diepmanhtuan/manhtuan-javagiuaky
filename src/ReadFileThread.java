@@ -18,7 +18,6 @@ public class ReadFileThread implements Runnable {
     public ReadFileThread(BlockingQueue<Student> outputQueue) {
         this.outputQueue = outputQueue;
     }
-
     @Override
     public void run() {
         try {
